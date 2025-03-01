@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Predict{% endblock %}
+
+{% block content %}
+<header>
+    <h1>Predict Employee Performance</h1>
+</header>
+<form action="{{ url_for('predict') }}" method="POST">
+    {% for field in ["quarter", "department", "day", "team", "targeted_productivity",
+                     "smv", "over_time", "incentive", "idle_time", "idle_men",
+                     "no_of_style_change", "no_of_workers", "month"] %}
+    <div class="form-group">
+        <label for="{{ field }}">{{ field.replace("_", " ").title() }}:</label>
+        <input type="text" id="{{ field }}" name="{{ field }}" class="form-control">
+    </div>
+    {% endfor %}
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}

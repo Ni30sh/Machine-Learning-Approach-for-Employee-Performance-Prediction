@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Submit{% endblock %}
+
+{% block content %}
+<header>
+    <h1>Prediction Result</h1>
+</header>
+
+{% if prediction_text %}
+    <p>{{ prediction_text }}</p>
+{% else %}
+    <p>No prediction available. Please try again.</p>
+{% endif %}
+
+<a href="{{ url_for('predict') }}" class="btn btn-primary">Go Back</a>
+{% endblock %}
