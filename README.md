@@ -61,40 +61,6 @@ python app.py
 
 Open http://127.0.0.1:5000/ in your browser.
 
-📊 Model Performance
-
-Model
-
-MAE
-
-MSE
-
-R² Score
-
-Linear Regression
-
-X.XX
-
-X.XX
-
-X.XX
-
-Random Forest
-
-X.XX
-
-X.XX
-
-X.XX
-
-XGBoost
-
-X.XX
-
-X.XX
-
-X.XX
-
 🏆 Best Model: XGBoost (Highest R² Score)
 
 🔥 Usage
