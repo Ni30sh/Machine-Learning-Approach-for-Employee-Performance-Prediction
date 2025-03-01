@@ -4,6 +4,14 @@
 
 This project leverages Machine Learning to predict employee performance based on key features. It implements Linear Regression, Random Forest, and XGBoost models, evaluates their performance, and selects the best one for deployment.
 
+👥 Contributors
+
+Niteesh Kumar (GitHub) - Backend & Model Training.
+
+Jyoti Yadav  -  Application Building.
+
+Yash - Data Collection and Visualizing Data.
+
 🚀 Features
 
 Data Collection: Importing and analyzing employee data.
@@ -71,11 +79,4 @@ Deploy with Flask (app.py)
 
 Get predictions via API
 
-👥 Contributors
-
-Niteesh Kumar (GitHub) - Backend & Model Training.
-
-Jyoti Yadav  -  Application Building.
-
-Yash - Data Collection and Visualizing Data.
 
