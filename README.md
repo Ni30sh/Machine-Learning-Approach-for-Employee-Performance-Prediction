@@ -1,22 +1,14 @@
-Employee Performance Prediction
+🏆 Employee Performance Prediction
 
 📌 Project Overview
 
-This project aims to predict employee performance using Machine Learning models such as Linear Regression, Random Forest, and XGBoost. The model takes various employee-related features as input and forecasts their productivity.
-
-👥 Contributors
-
-Niteesh Kumar (GitHub) - Backend & Model Training.
-
-Jyoti Yadav  -  Application Building.
-
-Yash - Data Collection and Visualizing Data.
+This project leverages Machine Learning to predict employee performance based on key features. It implements Linear Regression, Random Forest, and XGBoost models, evaluates their performance, and selects the best one for deployment.
 
 🚀 Features
 
-Data Collection: Loading and analyzing employee-related data.
+Data Collection: Importing and analyzing employee data.
 
-Exploratory Data Analysis (EDA): Data visualization and correlation analysis.
+Exploratory Data Analysis (EDA): Data visualization, correlation analysis, and descriptive statistics.
 
 Data Preprocessing: Handling missing values, encoding categorical data, and feature engineering.
 
@@ -38,19 +30,12 @@ R² Score
 
 Best Model Selection & Deployment
 
-Flask API for real-time predictions
+Flask API for real-time predictions.
 
 🏗️ Project Structure
 
-📂 employee-performance-prediction
-│── 📂 data                     # Dataset files
-│── 📂 static                   # Static files (CSS, JS, Images)
-│── 📂 templates                # HTML templates (Flask)
-│── 📂 models                   # Saved trained models
-│── 📜 app.py                   # Flask web application
-│── 📜 model_training.ipynb      # Jupyter Notebook for training models
-│── 📜 requirements.txt          # Dependencies
-│── 📜 README.md                 # Project Documentation
+![image](https://github.com/user-attachments/assets/2ce89514-1b72-4a74-9aca-581503948bf5)
+
 
 🛠️ Installation
 
@@ -69,6 +54,11 @@ python app.py
 
 Open http://127.0.0.1:5000/ in your browser.
 
+📊 Model Performance
+
+![image](https://github.com/user-attachments/assets/56669c49-8a2b-4ddd-ae78-7ea0b19251f1)
+
+
 🏆 Best Model: XGBoost (Highest R² Score)
 
 🔥 Usage
@@ -80,3 +70,12 @@ Save the best-performing model (best_model.pkl)
 Deploy with Flask (app.py)
 
 Get predictions via API
+
+👥 Contributors
+
+Niteesh Kumar (GitHub) - Backend & Model Training.
+
+Jyoti Yadav  -  Application Building.
+
+Yash - Data Collection and Visualizing Data.
+
