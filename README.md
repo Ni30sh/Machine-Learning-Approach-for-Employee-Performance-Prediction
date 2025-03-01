@@ -4,6 +4,12 @@ Employee Performance Prediction
 
 This project aims to predict employee performance using Machine Learning models such as Linear Regression, Random Forest, and XGBoost. The model takes various employee-related features as input and forecasts their productivity.
 
+👥 Contributors
+
+Niteesh Kumar (GitHub) - Backend & Model Training
+Jyoti Yadav  -  Application Building 
+Yash - Data Collection and Visualizing Data
+
 🚀 Features
 
 Data Collection: Loading and analyzing employee-related data.
