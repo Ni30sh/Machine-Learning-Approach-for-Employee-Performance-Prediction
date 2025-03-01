@@ -6,9 +6,11 @@ This project aims to predict employee performance using Machine Learning models 
 
 👥 Contributors
 
-Niteesh Kumar (GitHub) - Backend & Model Training
-Jyoti Yadav  -  Application Building 
-Yash - Data Collection and Visualizing Data
+Niteesh Kumar (GitHub) - Backend & Model Training.
+
+Jyoti Yadav  -  Application Building.
+
+Yash - Data Collection and Visualizing Data.
 
 🚀 Features
 
