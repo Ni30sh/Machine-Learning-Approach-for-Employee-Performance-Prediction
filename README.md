@@ -44,19 +44,11 @@ Flask API for real-time predictions.
 
 ![image](https://github.com/user-attachments/assets/2ce89514-1b72-4a74-9aca-581503948bf5)
 
+ Install Dependencies
 
-🛠️ Installation
+ pip install -r requirements.txt
 
-1️⃣ Clone the Repository
-
-git clone https://github.com/your-username/employee-performance-prediction.git
-cd employee-performance-prediction
-
-2️⃣ Install Dependencies
-
-pip install -r requirements.txt
-
-3️⃣ Run the Flask Application
+ Run the Flask Application
 
 python app.py
 
