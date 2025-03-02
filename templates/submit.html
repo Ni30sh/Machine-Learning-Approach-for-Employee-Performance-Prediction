@@ -1,17 +1,23 @@
 {% extends "base.html" %}
 
-{% block title %}Submit{% endblock %}
+{% block title %}Prediction Result{% endblock %}
 
 {% block content %}
-<header>
-    <h1>Prediction Result</h1>
-</header>
+<div class="container mt-5 text-center">
+    <header>
+        <h1>Prediction Result</h1>
+    </header>
 
-{% if prediction_text %}
-    <p>{{ prediction_text }}</p>
-{% else %}
-    <p>No prediction available. Please try again.</p>
-{% endif %}
+    {% if prediction_text %}
+        <div class="alert alert-info">
+            {{ prediction_text }}
+        </div>
+    {% else %}
+        <div class="alert alert-warning">
+            No prediction available. Please try again.
+        </div>
+    {% endif %}
 
-<a href="{{ url_for('predict') }}" class="btn btn-primary">Go Back</a>
+    <a href="{{ url_for('home1') }}" class="btn btn-primary btn-lg mt-3">Try Again</a>
+</div>
 {% endblock %}

@@ -20,15 +20,8 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-top: 50px;
         }
-        header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
         nav a.nav-link {
             color: white;
-        }
-        nav a.nav-link:hover {
-            color: #ddd;
         }
     </style>
 </head>
@@ -37,9 +30,9 @@
         <a class="navbar-brand" href="#">Performance Analysis</a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a class="nav-link" href="{{ url_for('about') }}">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ url_for('home') }}">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ url_for('predict_page') }}">Predict</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('home') }}">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('about') }}">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('home1') }}">Predict</a></li>
             </ul>
         </div>
     </nav>

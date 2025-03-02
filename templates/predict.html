@@ -7,14 +7,58 @@
     <h1>Predict Employee Performance</h1>
 </header>
 <form action="{{ url_for('predict') }}" method="POST">
-    {% for field in ["quarter", "department", "day", "team", "targeted_productivity",
-                     "smv", "over_time", "incentive", "idle_time", "idle_men",
-                     "no_of_style_change", "no_of_workers", "month"] %}
     <div class="form-group">
-        <label for="{{ field }}">{{ field.replace("_", " ").title() }}:</label>
-        <input type="text" id="{{ field }}" name="{{ field }}" class="form-control">
+        <label for="quarter">Quarter:</label>
+        <input type="text" id="quarter" name="quarter" class="form-control">
     </div>
-    {% endfor %}
+    <div class="form-group">
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="day">Day:</label>
+        <input type="text" id="day" name="day" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="team">Team:</label>
+        <input type="text" id="team" name="team" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="targeted_productivity">Targeted Productivity:</label>
+        <input type="text" id="targeted_productivity" name="targeted_productivity" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="smv">SMV:</label>
+        <input type="text" id="smv" name="smv" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="over_time">Over Time:</label>
+        <input type="text" id="over_time" name="over_time" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="incentive">Incentive:</label>
+        <input type="text" id="incentive" name="incentive" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="idle_time">Idle Time:</label>
+        <input type="text" id="idle_time" name="idle_time" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="idle_men">Idle Men:</label>
+        <input type="text" id="idle_men" name="idle_men" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="no_of_style_change">No. of Style Change:</label>
+        <input type="text" id="no_of_style_change" name="no_of_style_change" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="no_of_workers">No. of Workers:</label>
+        <input type="text" id="no_of_workers" name="no_of_workers" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="month">Month:</label>
+        <input type="text" id="month" name="month" class="form-control">
+    </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 {% endblock %}
