@@ -6,7 +6,7 @@ This project leverages Machine Learning to predict employee performance based on
 
 👥 Contributors
 
-Niteesh Kumar (GitHub) - Backend & Model Training.
+Niteesh Kumar - Backend & Model Training.
 
 Jyoti Yadav  -  Application Building.
 
