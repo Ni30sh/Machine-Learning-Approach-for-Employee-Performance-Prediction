@@ -40,15 +40,11 @@ Best Model Selection & Deployment
 
 Flask API for real-time predictions.
 
-🏗️ Project Structure
+Install Dependencies
 
-![image](https://github.com/user-attachments/assets/2ce89514-1b72-4a74-9aca-581503948bf5)
+pip install -r requirements.txt
 
- Install Dependencies
-
- pip install -r requirements.txt
-
- Run the Flask Application
+Run the Flask Application
 
 python app.py
 
