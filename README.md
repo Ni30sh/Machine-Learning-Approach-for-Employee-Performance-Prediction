@@ -6,11 +6,10 @@ This project leverages Machine Learning to predict employee performance based on
 
 👥 Contributors
 
-Niteesh Kumar - Backend & Model Training.
+Niteesh Kumar - Data collection & Visualizing & Model Building
 
-Jyoti Yadav  -  Application Building.
+Jyoti Yadav  -  Data Pre-processing & Application Building.
 
-Yash - Data Collection and Visualizing Data.
 
 🚀 Features
 
