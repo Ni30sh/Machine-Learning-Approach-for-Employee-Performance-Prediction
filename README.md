@@ -10,8 +10,6 @@ Niteesh Kumar - Backend & Model Training.
 
 Jyoti Yadav  -  Application Building.
 
-Yash - Data Collection and Visualizing Data.
-
 🚀 Features
 
 Data Collection: Importing and analyzing employee data.
