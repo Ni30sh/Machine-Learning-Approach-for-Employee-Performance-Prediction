@@ -12,22 +12,22 @@ except Exception as e:
 
 
 @app.route("/")
-def about():
+def home():
     return render_template('home.html')
 
 
 @app.route("/about")
-def home():
+def about():
     return render_template('about.html')
 
 
 @app.route("/predict")
-def home1():
+def predict_page():
     return render_template('predict.html')
 
 
 @app.route("/submit")
-def home2():
+def submit_page():
     return render_template('submit.html')
 
 
@@ -37,6 +37,9 @@ def predict():
         return "Model not loaded properly", 500
 
     try:
+        employee_name = request.form.get('employee_name', '').strip()
+        employee_id = request.form.get('employee_id', '').strip()
+
         quarter = int(request.form.get('quarter', 0))
         department = int(request.form.get('department', 0))
         day = int(request.form.get('day', 0))
@@ -69,7 +72,8 @@ def predict():
         else:
             text = 'The employee is highly productive'
 
-        return render_template('submit.html', prediction_text=text)
+        return render_template('submit.html', prediction_text=text,
+                               employee_name=employee_name, employee_id=employee_id)
 
     except Exception as e:
         print("Error in prediction:", e)
