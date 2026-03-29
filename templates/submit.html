@@ -8,6 +8,22 @@
         <h1>Prediction Result</h1>
     </header>
 
+    {% if employee_name or employee_id %}
+    <div class="card mb-4 text-left">
+        <div class="card-header bg-dark text-white">
+            <strong>Employee Profile</strong>
+        </div>
+        <div class="card-body">
+            {% if employee_name %}
+            <p class="card-text"><strong>Name:</strong> {{ employee_name }}</p>
+            {% endif %}
+            {% if employee_id %}
+            <p class="card-text"><strong>Employee ID:</strong> {{ employee_id }}</p>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+
     {% if prediction_text %}
         <div class="alert alert-info">
             {{ prediction_text }}
@@ -18,6 +34,6 @@
         </div>
     {% endif %}
 
-    <a href="{{ url_for('home1') }}" class="btn btn-primary btn-lg mt-3">Try Again</a>
+    <a href="{{ url_for('predict_page') }}" class="btn btn-primary btn-lg mt-3">Try Again</a>
 </div>
 {% endblock %}
